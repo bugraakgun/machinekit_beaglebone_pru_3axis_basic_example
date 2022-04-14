@@ -15,15 +15,17 @@
 
 
 
-` cd /home/machinekit/ `
+``` 
+cd /home/machinekit/ 
 
-` mkdir config   `
+mkdir config   
 
-` cp pru-3axis.hal /home/machinekit/pru-3axis.hal `
+cp pru-3axis.hal /home/machinekit/pru-3axis.hal 
 
-` cp pru-3axis.ini /home/machinekit/pru-3axis.ini `
+cp pru-3axis.ini /home/machinekit/pru-3axis.ini 
 
-` linuxcnc pru-3axis.ini # started axis screen code `
+linuxcnc pru-3axis.ini # started axis screen code 
+``` 
 
 
 - copy file metod: uart(xmodem,ymodem), ssh(scp) ..etc
